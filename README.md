@@ -1,2 +1,2 @@
 # ComplexDynamics
-Experiments with phase space dynamics of complex and deep neural systems
+Experiments with phase space dynamics of complex deep neural systems
