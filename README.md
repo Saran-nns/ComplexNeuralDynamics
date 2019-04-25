@@ -2,7 +2,7 @@
 Experiments with deep neural networks for complex and chaotic dynamical systems behavior prediction and analysis.
 
 <h4 align="Left">SORN Reservoir and the evolution of synaptic efficacies</h4> 
-<a href="url"><img src="https://github.com/Saran-nns/ComplexNeeuralDynamics/data/animated-lorenz-attractor.gif" height="320" width="430" ></a> 
+<a href="url"><img src="https://github.com/Saran-nns/blob/master/data/animated-lorenz-attractor.gif" height="320" width="430" ></a> 
 
 
 Inspired by,
