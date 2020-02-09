@@ -52,7 +52,7 @@ class RVAE(nn.Module):
         self.z_var = nn.Linear(self.hidden_size,self.latent_size)
         self.z_vector = self.sample_z(self.z_mean,self.z_var)
 
-        # Q(X|Z) - DECODER
+        # P(X|Z) - DECODER
         self.decoder = nn.Sequential(
             nn.LSTM(self.latent_size,self.hidden_size,self.num_layers,dropout = self.dropout,batch_first = True),
             nn.ReLU())
@@ -73,7 +73,7 @@ class RVAE(nn.Module):
         var = self.z_var(x)
         return mean, var
 
-    # Q(X|Z) -
+    # P(X|Z) -
     def decode(self, z):
         out = self.z_vector(z)
         out = out.view(z.size(0))
